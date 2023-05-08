@@ -24,6 +24,7 @@ void splits(vector<int> &v,vector<int> output,int i,vector<vector<int>>& ans){
     output.push_back(v[i]);
     splits(v,output,i+1,ans);
 }
+   
 // - Subsequences: https://bit.ly/33hi3MB
 
 void substring(vector<string> &ans, string output,string& str, int i){

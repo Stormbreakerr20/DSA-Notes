@@ -53,9 +53,6 @@ void GCD(int a,int b){
 
 //while subtraction if  ans -ve  21-18=3   by moduli 10==> 1-8=-7==>10+(-7)=3,,, add MOD to it
 
-
-
-
 //to find x^n we use x*x*x....ntimes O(n)
 //but use x^n=(x^n/2)^2   if even, x^n=(x^n/2)^2*x if odd this method O(logn)
 

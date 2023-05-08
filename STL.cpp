@@ -160,3 +160,10 @@ using namespace std;
 //     reverse(a.begin(),a.end());
 //     cout<<a;
 // }
+
+
+// sorting for vector<vector<int>> v:   if we want to sort according to 3rd element of each vector
+// bool cmp(vector<int>&a,vector<int>&b ){
+//   return a[2]<b[2];
+// }
+// sort(v.begin(),v.end(),cmp)

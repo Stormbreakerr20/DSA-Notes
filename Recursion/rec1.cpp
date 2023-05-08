@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-// int fib(int n){
+// int fax(int n){
 //     if (n==0){
 //         return 1;
 //     }
 
-//     return n*fib(n-1);
+//     return n*fac(n-1);
 
 //     // recursion need small prob like n-1 and big prob like n 
 //     // need base condition like n==0
