@@ -2,6 +2,8 @@
 using namespace std;
 #include<queue>
 
+// creating a heap for pair  result in sorting based on first element of pair i.e i.first
+
 int main(){
     // note pop will delete head node;
 
