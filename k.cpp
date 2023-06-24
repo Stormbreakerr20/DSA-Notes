@@ -107,10 +107,8 @@ void pivot(int arr[],int n){
     cout<<arr[e];
 }
 #include<vector>
+#include<algorithm>
 #include<string>
 int main(){
-    vector<int> v={0,1};
-    vector<int> a={0,1,0};
-    cout<<char('a'+1);
 
 }

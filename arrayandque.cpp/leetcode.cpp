@@ -1,23 +1,3 @@
-#include<iostream>
-#include<climits>
-#include<vector>
-using namespace std;
-int val(int arr[],int n){
-    int r;
-    for(int i=1;i<=n;i++){
-        cout<<"EL "<<i<<" ";
-        cin>>r;
-        arr[i-1]=r;
-    }
-    return 0;
-}
-int print(int arr[],int n){
-    for (int i=0;i<n;i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
-    return 0;
-}
 // **********************************************Find Unique element [https://bit.ly/3y01Zdu ]
 // int main(){                            M1 
 //     int n=5;
@@ -38,7 +18,6 @@ int print(int arr[],int n){
 //         }
 //     }
 // }
-
 // M2 XOR
 // int main(){
 //     int n=5;
@@ -185,7 +164,6 @@ int print(int arr[],int n){
 //     }
 //     return true;
 // }
-
     // bool check(vector<int>& nums) {
     //    //Check if array can be divided into two monontonous arrays
     //    int count = 0;
@@ -195,15 +173,10 @@ int print(int arr[],int n){
     //         if (nums[i] > nums[i+1])
     //             count++;
     //     }
-
     //     if (nums[n-1] > nums[0])
     //         count++;
-
-
     //     return (count<2);
     // }
-
-
 
 // Add arrays: https://bit.ly/3DXfsDZ 
 // int main(){
@@ -242,7 +215,6 @@ int print(int arr[],int n){
 //         cout<<v[i];
 //     }
 // }
-
 
 // snow ball solution :   move zeroes to right end : https://leetcode.com/problems/move-zeroes/solutions/172432/the-easiest-but-unusual-snowball-java-solution-beats-100-o-n-clear-explanation/
 //best sol: https://leetcode.com/problems/move-zeroes/submissions/896549594/

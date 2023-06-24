@@ -167,3 +167,5 @@ using namespace std;
 //   return a[2]<b[2];
 // }
 // sort(v.begin(),v.end(),cmp)
+
+

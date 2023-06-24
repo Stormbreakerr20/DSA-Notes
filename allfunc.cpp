@@ -9,7 +9,7 @@ int val(int arr[],int n){
     }
     return 0;
 }
-int bins(int arr[],int n,int z){
+int bins(int arr[],int n,int z){     
     int s=0,e=n-1;
     while(s<=e){
         int mid=(s+e)/2;
