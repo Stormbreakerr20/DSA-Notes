@@ -1,0 +1,43 @@
+Q1
+We need to find points such that the perimeter formed using those contain all the elements given 
+I have Coded for both Convex Hull Grahms and Jarvis both algorithms :: both give correct answers
+
+Jarvis March didn't include idea of starting from some most possible element and it had to check with all elements via rotation method which had it's own limitation. 
+Grahms Algo is better approach which works in nlogn
+Sorting : n(logn)
+Took left most and bottom most point as initial 
+
+left and right turns I have calculated using angle function : we make a stack enter 3 initial elements to it and then traverse for all other points which are sorted according to polar angle
+If the new element is right of line made by last two we discard top element of stack else push all 3 into stack 
+
+left and right is being determined via slopes : let onhull = x1,y1 , next point  = x2,y2 , point = x3,y3
+
+if : (y3 - y2)*(x2 - x1) - (y2-y1)*(x3-x2) the given formula is positive hence point is more left than next point : 
+
+took understanding of this formula from online websites...
+
+Convex hull Experiment has a time complexiety = n(logn) accounted by sorting
+
+Issue: Only for point that lie on same line is repeated if it is top 3 :: Example test case 2 00,11,77 lie on same line so discarding 11 was troublesome so I took it on hull as well
+
+
+Q2:
+Radix Sort is being implemented by applying Counting Sort on each digit place of given no. we are doing the separately for negatives and positives
+merging at last
+We are traversing the digits by a 10*: for loop Coded on line 35
+Time Complexity : o(n(d+k)) where n is no. of integers given and d is max no. of digits in a number however if d increases it's TC gets worsened
+k is the max no. of digits possible in a number
+
+Q3 
+Median of Medians
+Time complexity is O(n) as for 5 chunks : T(n) = T(n/5) + T(7n/10) + O(n);
+ 
+We are dividing the given array into chunks of 5 each sorting them however this sorting takes constant time as elements are 5 only thereby we take their medians and finaly take median of medians then arranging the given array as elements smaller and greater than median of medians
+if the k > len(L) we search in R with k = k - L.size() else search in L itself
+
+for size() == 5 we do brute force;
+
+For Rank we just traverse the array to check elements smaller than it
+However in test two It takes Rank in decreasing order but in first it takes from increasing order
+
+So I have taken in increasing order only
