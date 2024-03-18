@@ -8,7 +8,6 @@ Welcome to the Data Structures and Algorithms (DSA) Notes Repository! Here you w
 2. [Data Structures](#data-structures)
 3. [Algorithms](#algorithms)
 4. [Contributing](#contributing)
-5. [License](#license)
 
 ## Introduction
 
