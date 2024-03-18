@@ -53,8 +53,6 @@ Contributions to this repository are welcome and encouraged! If you have correct
 5. Push to the branch (`git push origin feature/improvement`).
 6. Create a new Pull Request.
 
-Please ensure your contributions adhere to the repository's standards and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
-
 ---
 
 Feel free to explore the content, learn, and contribute to make this repository a valuable resource for the DSA community! If you have any questions or suggestions, please don't hesitate to reach out. Happy learning!
