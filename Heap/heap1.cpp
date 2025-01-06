@@ -53,7 +53,7 @@ class heap{
     void insert(int x){
         size++;
         int index=size;
-        arr[index] =x;
+        arr[index] = x;
 
         // find parent
         while(index>1){

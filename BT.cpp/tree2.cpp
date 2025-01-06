@@ -78,6 +78,4 @@ int main(){
     cout<<endl;
     postorder(root);
     cout<<endl;
-
-    
 }

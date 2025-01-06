@@ -171,6 +171,7 @@ int val(int arr[],int n){
 //     }
 //     return 0;
 // }
+
 // int dec(int z,double t,int y){
 //     double r=1;
 //     for(int i=1;i<=y;i++){
@@ -278,6 +279,7 @@ int val(int arr[],int n){
 //     }
 //     return true;
 // }
+
 // void bins(int arr[],int n,int k){
 //     int sum=0;
 //     for(int i=0;i<n;i++){

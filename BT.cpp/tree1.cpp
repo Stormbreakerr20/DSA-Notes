@@ -8,12 +8,12 @@
 // each node has either 2 child or 0 child 
 // no. of node does not matter on right and left side just parent should not have 1 node only.
 
-// Complete Binary Tree: all three level must be filled completely with nodes  i.e minimum of 7 node 1->2->4 and then if there exist further branch it must exist towards left i.e if not balanced then left > right
+// Complete Binary Tree: all the level must be filled completely with nodes  i.e minimum of 7 node 1->2->4 and then if there exist further branch it must exist towards left i.e if not balanced then left > right
 
 // perfect BT: all parent have strictly two nodes
 
 //balanced BT : height of tree must be exactly equal to logn 
-//  i.e differnce between left and right of each parent node must be atmost 1.                          
+// i.e differnce between left and right of each parent node must be atmost 1.                          
 
 // degenrate BT: if each node has only 1 child
 
@@ -92,6 +92,4 @@ int main(){
     root = build(root);
     //  1 3 7 -1 -1 11 -1 -1 5 17 -1 -1 -1
     levelOrderTraverse(root);
-
-    
 }

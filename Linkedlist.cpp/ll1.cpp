@@ -4,9 +4,9 @@ using namespace std;
 
 //  vector is dynamic array as size can be changed  At run time but array[] isn't
 
-// so we use linked list which is dynamic  hence no memory waste, LL can be grown and shrink at run time
+// so we use linked list which is dynamic hence no memory waste, LL can be grown and shrink at run time
 
-// node:   it has two parts data and last block as address of next node
+// node: it has two parts data and last block as address of next node
 
 // linked list: collection of node, easy insertion and deletion
 

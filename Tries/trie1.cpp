@@ -24,7 +24,7 @@ class trienode{
 
     trienode(char d){
         this->data=d;
-        for(int i=0;i<26;i++){
+        for(int i=0;i<26;i++){  
             children[i]=NULL;
         }
         isterminal=false;

@@ -1,4 +1,4 @@
-// macros we use it as const like pi that we use many times we can also use float f=3.14 bu takes storage,,, by macros no storage
+// macros we use it as const like pi that we use many times we can also use float f=3.14 but takes storage,,, by macros no storage
 
 #include<iostream>
 using namespace std;
@@ -8,10 +8,10 @@ using namespace std;
 // js types if else
 #define MIN(a,b) ((a<b) ? a:b)
 
-#define Area(l,b) (l*b)
+#define Area(l,b) (l*b) 
 
 
-// Global Var - Not a good practice never use    : change in global var will reflect globally          we can also use refernce var concept to get same address of var in function as well and it is better practice 
+// Global Var - Not a good practice never use    : change in global var will reflect globally, we can also use refernce var concept to get same address of var in function as well and it is better practice 
 // life of local var is in {}
 
 

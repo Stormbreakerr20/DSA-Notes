@@ -105,7 +105,4 @@ int main(){
 
     //static functions can access only static keywords
 
-
-
-
 }

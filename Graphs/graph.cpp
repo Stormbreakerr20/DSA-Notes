@@ -5,7 +5,7 @@
 
 // Degree of tree => degree of node= no. of edges it is connected with 
 
-// for directed graph type 1. out degree = how many going out  2. Indegree = how many coming towrds that node
+// for directed graph type 1. out degree = how many going out  2. Indegree = how many coming towards that node
 
 
 // wieghted graph ==> edges will have weights ,,, standard s each have weight as 1
@@ -103,15 +103,6 @@ int main(){
     }
 
     g.print();
-
-// 0 1
-// 1 2
-// 2 3
-// 3 1
-// 3 4
-// 0 4
-
-
 }
 
 

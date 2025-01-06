@@ -37,7 +37,7 @@ int main1(){
     cout<<" ##### arr[i] = "<<arr[1]<<" = "<<" i[arr] = "<<1[arr]<<endl;
 
 
-    //differneces array and pointer
+    //differences array and pointer
     //1. sizeof(arr)=4*length bytes but size of int *p =&arr[0] sizeof(p)= 8 bytes (sizeof(*p) = 4bytes as it's an int val)
     //2.
     cout<<arr<<endl;
@@ -107,8 +107,8 @@ int main1(){
     cout<<*p1<<" "<<*q<<endl;
 
     //void pointer: can take any data type and can be typecasted
-       void* ptr5=&num;
-       ptr5=&ch;
+    void* ptr5=&num;
+    ptr5=&ch;
 
 
     //important
@@ -155,16 +155,10 @@ int main(){
     //ptr1 address
     cout<<&ptr1<<endl;
     cout<<ptr2<<endl; 
-
-    //function
-
-
-
 }
 void update2(int **p2){
     //this happens always function create new address of argument we send like of p2 here.  if f(int n){n++;} || int n=5||f(n) cout<<n|| o/p=5 as n in function is different. // this is called pass by value
 
-    
     p2++;
     //change hoga?  no    
     (*p2)++;

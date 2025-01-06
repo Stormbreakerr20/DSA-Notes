@@ -72,9 +72,6 @@ class Node {
         cout<<"Memory Freed of: "<<value<<endl;
     }
     //call by delete
-
-
-
 };
 
 //detect using map  S.C = O(n)

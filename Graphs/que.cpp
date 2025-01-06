@@ -1,6 +1,6 @@
 // Graph https://www.codingninjas.com/codestudio/problems/create-a-graph-and-print-it_1214551?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0
 
-// in above que there was runtime error as I was not specifying vector<vector<int>> v(n)   (n) this i forgot ==>specift size of vector
+// in above que there was runtime error as I was not specifying vector<vector<int>> v(n)   (n) this i forgot ==>specify size of vector
 
 // BFS: https://www.codingninjas.com/codestudio/problems/bfs-in-graph_973002?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0
 // breadth first search  
@@ -16,9 +16,7 @@
 //  Cycle Detection in directed graphs have 2 submission by bfs then dfs :          //dfs is about one more array in place of parent i.e call  //
 //bfs based on kahn's algo as it is applies to acyclic directed graph so if cyclic the topological order is wrong
 
-//
 //Cycle Detection in directed graphs: https://bit.ly/3Pa72Qy
-
 
 // Topological Sort: https://bit.ly/3M9mM4t (DFS)
 // of DAG==> directed acyclic graph                  //  Topological Sort : Linear ordering of all vertices such that for all edges u-v ==> u appears before v
@@ -36,8 +34,8 @@
 
 //MST / Prism: 
 //spanning tree : graph to tree such that it has n node and n-1 edges : we are able to reach from one node to every other node easily not necassarily directly 
-// MST: minimum spanning tree st there is minimum wieght
-//  Prim's Algo: https://bit.ly/3axYOSF  :MST
+// MST: minimum spanning tree st there is minimum weight
+//  Prim's Algo: https://bit.ly/3axYOSF  : MST
 
 // Kruskal algo: https://www.codingninjas.com/codestudio/problems/minimum-spanning-tree_631769?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0
 //Union of sets: // algo is used to find two nodes lie in same components or not ==> if parent of both equal ==> yes else no
